@@ -1,0 +1,28 @@
+@import 'navbar';
+@import 'footer';
+
+
+.newsletter {
+    background-color: #111a67;
+    margin-top: 0.5%;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    .texto-newsletter {
+        font-family: "Montserrat";
+        font-size: 12pt;
+        color: white;
+    }
+}
+
+.contenedor-imagenes-index {
+    display: flex;
+    justify-content: space-around;
+
+    .imagenes-index {
+        display: inline;
+        margin-top: 0.5%;
+        margin-bottom: 0.5%;
+    }
+}
