@@ -1,24 +1,124 @@
-@import 'navbar';
-@import 'footer';
+@import "navbar";
+@import "footer";
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.caja-quiensoy {
+  margin: 5% 10%;
+}
 
 .newsletter {
-    background-color: #111a67;
-    margin-top: 0.5%;
-    padding-left: 7%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  background-color: #111a67;
+  margin-top: 0.5%;
+  padding-left: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
-    .texto-newsletter {
-        font-family: "Montserrat";
-        font-size: 12pt;
-        color: white;
-    }
+  .texto-newsletter {
+    font-family: "Montserrat";
+    font-size: 12pt;
+    color: white;
+  }
 }
 
 .contenedor-imagenes-index {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+
+  .imagenes-index {
+    display: inline;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.caja-quiensoy {
+  margin: 5% 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .all-margin-top {
+    margin-top: 7%;
+  }
+  .servicios-index {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas:
+      "caja1 caja2"
+      "caja3 caja4";
+
+    .caja1 {
+      grid-area: caja1;
+    }
+
+    .caja2 {
+      grid-area: caja2;
+    }
+
+    .caja3 {
+      grid-area: caja3;
+    }
+
+    .caja4 {
+      grid-area: caja4;
+    }
+
+    .img-servicios {
+      width: 100%;
+    }
+  }
+
+  .btn-next-previous {
+    display: none;
+  }
+
+  .carousel-caption {
+    p {
+      display: none;
+    }
+  }
+
+  .caja-quiensoy {
+    margin: 5% 10%;
+
+    #caja-quiensoy {
+      display: inline-block !important;
+    }
+
+    #img-iara {
+      display: block !important;
+      margin: auto !important;
+    }
+
+    #texto-quiensoy {
+      padding-top: 3% !important;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+    .all-margin-top {
+        margin-top: 3.5%;
+    }
+
+    .servicios-index {
+        display: flex;
+        flex-direction: row;
+
+        .img-servicios {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 
     .imagenes-index {
         display: inline;

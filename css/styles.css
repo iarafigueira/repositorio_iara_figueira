@@ -1,75 +1,6 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-/* Header - Navbar */
-
-.fondo-navbar {
-    background-color: #D9C9C7;
-}
-
-.color-navbar a {
-    color: #111a67 !important;
-}
-
-/* Footer */
-.contenedor-imagenes-index {
-    display: flex;
-    justify-content: space-around;
-}
-
-.imagenes-index {
-    display: inline;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
-}
-
-.newsletter {
-    background-color: #111a67;
-    margin-top: 0.5%;
-    padding-left: 7%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.texto-newsletter {
-    font-family: "Montserrat";
-    font-size: 12pt;
-    color: white;
-}
 
 .footer {
     margin-top: 0.5%;
-    background-color: #D9C9C7;
-    width: 100%;
-    padding-top: 2%;
-    padding-bottom: 1%;
-}
-
-.footer-derechos {
-    font-family: "Montserrat";
-    font-size: 12pt;
-    color: #111a67;
-}
-
-.footer-texto {
-    font-family: "Montserrat";
-    font-size: 12pt;
-    color: #111a67;
-    text-align: left;
-    padding-left: 3%;
-}
-
-#bold {
-    font-weight: bold;
-}
-
-/* Index */
-
-.caja-quiensoy {
-    margin: 5% 10%;
 }
 
 /* Portfolio */
@@ -367,60 +298,6 @@
 @media screen and (max-width: 768px) {
     .all-margin-top {
         margin-top: 7%;
-    }
-
-    /* Index */
-    .servicios-index {
-        display: grid;
-        grid-template-columns: repeat(2 1fr);
-        grid-template-rows: repeat(2 1fr);
-        grid-template-areas: "caja1 caja2"
-            "caja3 caja4";
-    }
-
-    .caja1 {
-        grid-area: caja1;
-    }
-
-    .caja2 {
-        grid-area: caja2;
-    }
-
-    .caja3 {
-        grid-area: caja3;
-    }
-
-    .caja4 {
-        grid-area: caja4;
-    }
-
-    .img-servicios {
-        width: 100%;
-    }
-
-    .btn-next-previous {
-        display: none;
-    }
-
-    .carousel-caption p {
-        display: none;
-    }
-
-    .caja-quiensoy {
-        margin: 5% 10%;
-    }
-
-    #caja-quiensoy {
-        display: inline-block !important;
-    }
-
-    #img-iara {
-        display: block !important;
-        margin: auto !important;
-    }
-
-    #texto-quiensoy {
-        padding-top: 3% !important;
     }
 
     /* Portfolio */
