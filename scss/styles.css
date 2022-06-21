@@ -5,21 +5,20 @@
   color: #111a67 !important;
 }
 
-.footer-sobremi {
-  margin: 0%;
+.footer {
   background-color: #d9c9c7;
   width: 100%;
   padding-top: 2%;
   padding-bottom: 1%;
 }
-.footer-sobremi .footer-texto {
+.footer .footer-texto {
   font-family: "Montserrat";
   font-size: 12pt;
   color: #111a67;
   text-align: left;
   padding-left: 3%;
 }
-.footer-sobremi .footer-derechos {
+.footer .footer-derechos {
   font-family: "Montserrat";
   font-size: 12pt;
   color: #111a67;
@@ -30,115 +29,197 @@
   color: #111a67;
 }
 
+/* Index */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-.caja-quiensoy {
+.all-index-margin-top {
+  margin-top: 5%;
+}
+.all-index-margin-top .btn-next-previous {
+  display: none;
+}
+.all-index-margin-top .carousel-caption p {
+  display: none;
+}
+.all-index-margin-top .servicios-index {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-template-rows: repeat(2 1fr);
+  grid-template-areas: "caja1 caja2" "caja3 caja4";
+}
+.all-index-margin-top .servicios-index .caja1 {
+  grid-area: caja1;
+}
+.all-index-margin-top .servicios-index .caja2 {
+  grid-area: caja2;
+}
+.all-index-margin-top .servicios-index .caja3 {
+  grid-area: caja3;
+}
+.all-index-margin-top .servicios-index .caja4 {
+  grid-area: caja4;
+}
+.all-index-margin-top .servicios-index .img-servicios {
+  width: 100%;
+}
+.all-index-margin-top .caja-quiensoy {
   margin: 5% 10%;
 }
-
-.newsletter {
+.all-index-margin-top .caja-quiensoy #caja-quiensoy {
+  display: inline-block !important;
+}
+.all-index-margin-top .caja-quiensoy #img-iara {
+  display: block !important;
+  margin: auto !important;
+}
+.all-index-margin-top .caja-quiensoy #texto-quiensoy {
+  padding-top: 3% !important;
+}
+.all-index-margin-top .newsletter {
   background-color: #111a67;
   margin-top: 0.5%;
   padding-left: 7%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.newsletter .texto-newsletter {
+.all-index-margin-top .newsletter .titulo-newsletter {
+  font-family: "Montserrat";
+  font-size: 17pt;
+  font-weight: bold;
+  color: white;
+}
+.all-index-margin-top .newsletter .texto-newsletter {
   font-family: "Montserrat";
   font-size: 12pt;
   color: white;
 }
-
-.contenedor-imagenes-index {
+.all-index-margin-top .contenedor-imagenes-index {
   display: flex;
   justify-content: space-around;
 }
-.contenedor-imagenes-index .imagenes-index {
-  display: inline;
-  margin-top: 0.5%;
-  margin-bottom: 0.5%;
+.all-index-margin-top .contenedor-imagenes-index .img-index {
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-.caja-quiensoy {
-  margin: 5% 10%;
+.all-index-margin-top main div {
+  position: relative;
+}
+.all-index-margin-top main div .titulo-servicio-index {
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  left: 3%;
+}
+.all-index-margin-top main div .titulo-servicio-index p {
+  font-family: montserrat;
+  font-size: 20pt;
 }
 
-@media screen and (max-width: 768px) {
-  .all-margin-top {
-    margin-top: 7%;
-  }
-
-  .servicios-index {
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-    grid-template-rows: repeat(2 1fr);
-    grid-template-areas: "caja1 caja2" "caja3 caja4";
-  }
-  .servicios-index .caja1 {
-    grid-area: caja1;
-  }
-  .servicios-index .caja2 {
-    grid-area: caja2;
-  }
-  .servicios-index .caja3 {
-    grid-area: caja3;
-  }
-  .servicios-index .caja4 {
-    grid-area: caja4;
-  }
-  .servicios-index .img-servicios {
-    width: 100%;
-  }
-
-  .btn-next-previous {
-    display: none;
-  }
-
-  .carousel-caption p {
-    display: none;
-  }
-
-  .caja-quiensoy {
-    margin: 5% 10%;
-  }
-  .caja-quiensoy #caja-quiensoy {
-    display: inline-block !important;
-  }
-  .caja-quiensoy #img-iara {
-    display: block !important;
-    margin: auto !important;
-  }
-  .caja-quiensoy #texto-quiensoy {
-    padding-top: 3% !important;
-  }
-}
-@media screen and (min-width: 769px) {
-  .all-margin-top {
+@media screen and (min-width: 992px) {
+  .all-index-margin-top {
     margin-top: 3.5%;
   }
-
-  .servicios-index {
+  .all-index-margin-top .carousel-caption p {
+    display: inline;
+  }
+  .all-index-margin-top .servicios-index {
     display: flex;
     flex-direction: row;
   }
-  .servicios-index .img-servicios {
+  .all-index-margin-top .servicios-index .img-servicios {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
 
-  .imagenes-index {
-    display: inline;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+  .img-index {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+/* Contacto */
+.all-contacto-margin-top {
+  margin-top: 55px;
+}
+.all-contacto-margin-top .banner-contacto {
+  background-color: #d9c9c7;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-contacto-margin-top .banner-contacto h1 {
+  font-family: Montserrat;
+  font-size: 30pt;
+  color: black;
+  padding: 10px;
+}
+.all-contacto-margin-top .contacto {
+  margin: auto;
+  text-align: left;
+}
+.all-contacto-margin-top .titulo-formcontacto {
+  font-family: Montserrat;
+  font-size: 18pt;
+  color: black;
+  text-align: left;
+  padding-top: 30px;
+}
+.all-contacto-margin-top .subtitulo-formcontacto {
+  font-family: Montserrat;
+  font-size: 15pt;
+  color: black;
+  text-align: left;
+}
+.all-contacto-margin-top div .form-etiqueta {
+  font-family: Montserrat;
+  font-size: 12pt;
+  color: black;
+  text-align: left;
+}
+.all-contacto-margin-top div .btn-enviar {
+  background-color: #111a67;
+  font-family: Montserrat;
+  font-size: 12pt;
+  color: white;
+}
+.all-contacto-margin-top div .btn-enviar:hover {
+  background-color: #1d3496;
+  color: white;
+}
+.all-contacto-margin-top .term-cond {
+  margin: 5% auto 3% auto;
+}
+.all-contacto-margin-top .term-cond hr {
+  border: 1px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.all-contacto-margin-top .term-cond p {
+  font-family: Montserrat;
+  font-size: 12pt;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .banner-contacto {
+    background-image: url(/img/banner-contacto.png);
+    background-repeat: no-repeat;
+  }
+
+  .img-oculta {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -1,472 +1,406 @@
-
 .footer {
-    margin-top: 0.5%;
+  margin-top: 0.5%;
 }
 
 /* Portfolio */
 
 .bannerInicio {
-    background-color: #111a67;
-    height: 100px;
-    font-family: "Radio Canada";
-    font-size: 400;
-    color: #D9C9C7;
-    text-align: center;
-    display: block;
-    margin: 0px;
-    padding-top: 50px;
+  background-color: #111a67;
+  height: 100px;
+  font-family: "Radio Canada";
+  font-size: 400;
+  color: #d9c9c7;
+  text-align: center;
+  display: block;
+  margin: 0px;
+  padding-top: 50px;
 }
 
 .bloqueContacto {
-    background: #D9C9C7;
-    width: auto;
-    height: 200px;
-    text-align: center;
+  background: #d9c9c7;
+  width: auto;
+  height: 200px;
+  text-align: center;
 }
 
 .preguntaP {
-    font-family: "Montserrat";
-    font-size: 400;
-    color: #111a67;
-    padding: 20px 20px 5px 20px;
+  font-family: "Montserrat";
+  font-size: 400;
+  color: #111a67;
+  padding: 20px 20px 5px 20px;
 }
 
 .detallePreguntaP {
-    font-family: "Montserrat";
-    font-size: 200;
-    color: #111a67;
-    margin-left: 50px;
-    padding: 10px;
+  font-family: "Montserrat";
+  font-size: 200;
+  color: #111a67;
+  margin-left: 50px;
+  padding: 10px;
 }
 
 .botonContacto {
-    font-family: "Montserrat";
-    font-size: 200;
-    color: #111a67;
-    text-decoration: none;
-    background-color: white;
-    background-size: 10px 10px;
-    border-radius: 15px;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 200px;
+  font-family: "Montserrat";
+  font-size: 200;
+  color: #111a67;
+  text-decoration: none;
+  background-color: white;
+  background-size: 10px 10px;
+  border-radius: 15px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 200px;
 }
 
 /* Sobre Mi */
 .conocemeQS {
-    margin: 20px 20px 50px 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  margin: 20px 20px 50px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .conoceme {
-    font-family: "Montserrat";
-    font-size: 400;
-    color: #111a67;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    text-align: center;
+  font-family: "Montserrat";
+  font-size: 400;
+  color: #111a67;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .imgIara {
-    width: 300px;
-    height: 300px;
-    float: inline-start;
+  width: 300px;
+  height: 300px;
+  float: inline-start;
 }
 
 .Iara {
-    font-family: "Montserrat";
-    font-size: 400;
-    color: #111a67;
-    text-align: right;
-
+  font-family: "Montserrat";
+  font-size: 400;
+  color: #111a67;
+  text-align: right;
 }
 
 .fondoHagamos {
-    margin-bottom: 40px;
-
+  margin-bottom: 40px;
 }
 
 .hagamos {
-    margin: 0px;
-    font-family: "Montserrat";
-    font-size: 20pt;
-    color: #111a67;
-    text-align: center;
-    padding: 30px;
+  margin: 0px;
+  font-family: "Montserrat";
+  font-size: 20pt;
+  color: #111a67;
+  text-align: center;
+  padding: 30px;
 }
 
 .cajas-sobremi {
-    background-color: #D9C9C7;
-    border-radius: 5px;
-    margin: 0px;
-    font-family: "Montserrat";
-    font-size: 400;
-    color: #111a67;
-    text-align: right;
-    margin: 5px 20px;
-    padding-right: 70px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  background-color: #d9c9c7;
+  border-radius: 5px;
+  margin: 0px;
+  font-family: "Montserrat";
+  font-size: 400;
+  color: #111a67;
+  text-align: right;
+  margin: 5px 20px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .titulosSobreMi {
-    font-size: 20pt;
-    font-weight: bold;
+  font-size: 20pt;
+  font-weight: bold;
 }
 
 .subtituloSobreMi {
-    font-size: 15pt;
-    font-weight: bold;
+  font-size: 15pt;
+  font-weight: bold;
 }
 
 .parrafosSobreMi1y3 {
-    font-size: 13pt;
-    padding-left: 70px;
+  font-size: 13pt;
+  padding-left: 70px;
 }
 
 .parrafosSobreMi2y4 {
-    font-size: 13pt;
-    padding-right: 70px;
+  font-size: 13pt;
+  padding-right: 70px;
 }
 
 .fondoPregunta {
-    background-color: #d2bebc;
-    height: 100px;
-    margin-bottom: 20px;
+  background-color: #d2bebc;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
 .pregunta {
-    font-family: Montserrat;
-    font-size: 12pt;
-    color: #111a67;
-    text-align: center;
-    padding: 20px;
+  font-family: Montserrat;
+  font-size: 12pt;
+  color: #111a67;
+  text-align: center;
+  padding: 20px;
 }
 
 .botonPregunta {
-    border-radius: 5px;
-    text-align: center;
-
+  border-radius: 5px;
+  text-align: center;
 }
 
 .botonPregunta a {
-    background-color: white;
-    border-radius: 5px;
-    font-family: "Montserrat";
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 10pt;
-    color: #111a67;
-    padding: 8px
+  background-color: white;
+  border-radius: 5px;
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10pt;
+  color: #111a67;
+  padding: 8px;
 }
-
-/* Contacto */
-.titulo-formcontacto {
-    font-family: Montserrat;
-    font-size: 18pt;
-    color: black;
-    text-align: left;
-}
-
-.subtitulo-formcontacto {
-    font-family: Montserrat;
-    font-size: 15pt;
-    color: black;
-    text-align: left;
-}
-
-.contacto {
-    margin: 5% 5% 5%;
-}
-
-.form-etiqueta {
-    font-family: Montserrat;
-    font-size: 12pt;
-    color: black;
-    text-align: left;
-}
-
-.btn-enviar {
-    background-color: #111a67;
-    font-family: Montserrat;
-    font-size: 12pt;
-    color: white;
-}
-
-.btn-enviar:hover {
-    background-color: #1d3496;
-    color: white;
-}
-
-
 
 /* Banner */
 
 .banner {
-    background-color: #111a67;
-    background-image: none;
-    font-family: Montserrat;
-    font-size: 400;
-    color: white;
-    display: inline-block;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
+  background-color: #111a67;
+  background-image: none;
+  font-family: Montserrat;
+  font-size: 400;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .p1-banner {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Servicios */
 
 .caja-servicio {
-    background-color: #D9C9C7;
-    height: 100%;
-    font-family: Montserrat;
-    font-size: 400;
-    color: black;
-    padding: 40px 10px;
+  background-color: #d9c9c7;
+  height: 100%;
+  font-family: Montserrat;
+  font-size: 400;
+  color: black;
+  padding: 40px 10px;
 }
 
 .titulo-servicio {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
 .subtitulo-servicio {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* Contacto */
-
-.flex-container-contacto {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin: 2% 0% 0% 2%;
-}
-
-.flex-hijo-contacto {
-    text-align: left;
-}
-
-#img-contacto {
-    width: 50%;
-    height: 70%;
-}
-
 #footer-margin {
-    margin: 0%;
-    width: 100%;
+  margin: 0%;
+  width: 100%;
 }
 
 /* Sobre Mi */
 
-.footer-sobremi {
-    margin: 0%;
-    background-color: #D9C9C7;
-    width: 100%;
-    padding-top: 2%;
-    padding-bottom: 1%;
+.footer {
+  margin: 0%;
+  background-color: #d9c9c7;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 .enlaceNO a {
-    text-decoration: none;
-    color: #111a67;
+  text-decoration: none;
+  color: #111a67;
 }
 
 /* Blog */
 
 .imgPosteo {
-    width: 200px;
+  width: 200px;
 }
 
 .caja-posteos {
-    margin: 5%;
+  margin: 5%;
 }
 
-
-
-
-
-
 @media screen and (max-width: 768px) {
-    .all-margin-top {
-        margin-top: 7%;
-    }
+  .all-margin-top {
+    margin-top: 7%;
+  }
 
-    /* Portfolio */
-    .grilla {
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        column-gap: 3%;
-        row-gap: 3%;
-        grid-template-areas: "img1 img2"
-            "img3 img4"
-            "img5 img6"
-            "img7 img8"
-            "img9 img10";
-        margin: 3%
-    }
+  /* Portfolio */
+  .grilla {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 3%;
+    row-gap: 3%;
+    grid-template-areas:
+      "img1 img2"
+      "img3 img4"
+      "img5 img6"
+      "img7 img8"
+      "img9 img10";
+    margin: 3%;
+  }
 
-    .img1 {
-        grid-area: img1;
-    }
+  .img1 {
+    grid-area: img1;
+  }
 
-    .img2 {
-        grid-area: img2;
-    }
+  .img2 {
+    grid-area: img2;
+  }
 
-    .img3 {
-        grid-area: img3;
-    }
+  .img3 {
+    grid-area: img3;
+  }
 
-    .img4 {
-        grid-area: img4;
-    }
+  .img4 {
+    grid-area: img4;
+  }
 
-    .img5 {
-        grid-area: img5;
-    }
+  .img5 {
+    grid-area: img5;
+  }
 
-    .img6 {
-        grid-area: img6;
-    }
+  .img6 {
+    grid-area: img6;
+  }
 
-    .img7 {
-        grid-area: img7;
-    }
+  .img7 {
+    grid-area: img7;
+  }
 
-    .img8 {
-        grid-area: img8;
-    }
+  .img8 {
+    grid-area: img8;
+  }
 
-    .img9 {
-        grid-area: img9;
-    }
+  .img9 {
+    grid-area: img9;
+  }
 
-    .img10 {
-        grid-area: img10;
-    }
+  .img10 {
+    grid-area: img10;
+  }
 
-    .img11,
-    .img12 {
-        display: none;
-    }
+  .img11,
+  .img12 {
+    display: none;
+  }
 
-    .imgPortfolio {
-        width: 100%;
-        height: auto;
-    }
+  .imgPortfolio {
+    width: 100%;
+    height: auto;
+  }
 
-    /* Contacto */
-    #imagenNO {
-        display: none;
-    }
+  /* Contacto */
+  #imagenNO {
+    display: none;
+  }
 
-    /* Index */
-    .oculto {
-        display: none;
-    }
-
+  /* Index */
+  .oculto {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 769px) {
-    .all-margin-top {
-        margin-top: 3.5%;
-    }
+  .all-margin-top {
+    margin-top: 3.5%;
+  }
 
-    /* Index */
-    .servicios-index {
-        display: flex;
-        flex-direction: row;
-    }
+  /* Index */
+  .servicios-index {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .img-servicios {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+  .img-servicios {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-    .imagenes-index {
-        display: inline;
-        margin-top: 0.5%;
-        margin-bottom: 0.5%;
-    }
+  .imagenes-index {
+    display: inline;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
 
-    .grilla {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        column-gap: 3%;
-        row-gap: 3%;
-        grid-template-areas: "img1 img2 img3 img4"
-            "img5 img6 img7 img8"
-            "img9 img10 img11 img12";
-        margin: 3%
-    }
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 3%;
+    row-gap: 3%;
+    grid-template-areas:
+      "img1 img2 img3 img4"
+      "img5 img6 img7 img8"
+      "img9 img10 img11 img12";
+    margin: 3%;
+  }
 
-    .img1 {
-        grid-area: img1;
-    }
+  .img1 {
+    grid-area: img1;
+  }
 
-    .img2 {
-        grid-area: img2;
-    }
+  .img2 {
+    grid-area: img2;
+  }
 
-    .img3 {
-        grid-area: img3;
-    }
+  .img3 {
+    grid-area: img3;
+  }
 
-    .img4 {
-        grid-area: img4;
-    }
+  .img4 {
+    grid-area: img4;
+  }
 
-    .img5 {
-        grid-area: img5;
-    }
+  .img5 {
+    grid-area: img5;
+  }
 
-    .img6 {
-        grid-area: img6;
-    }
+  .img6 {
+    grid-area: img6;
+  }
 
-    .img7 {
-        grid-area: img7;
-    }
+  .img7 {
+    grid-area: img7;
+  }
 
-    .img8 {
-        grid-area: img8;
-    }
+  .img8 {
+    grid-area: img8;
+  }
 
-    .img9 {
-        grid-area: img9;
-    }
+  .img9 {
+    grid-area: img9;
+  }
 
-    .img10 {
-        grid-area: img10;
-    }
+  .img10 {
+    grid-area: img10;
+  }
 
-    .img11 {
-        grid-area: img11;
-    }
+  .img11 {
+    grid-area: img11;
+  }
 
-    .img12 {
-        grid-area: img12;
-    }
+  .img12 {
+    grid-area: img12;
+  }
 
-    .acordeon-servicios-padre {
-        width: 50%;
-    }
+  .acordeon-servicios-padre {
+    width: 50%;
+  }
 
-    .imgPortfolio {
-        width: 100%;
-        height: auto;
-    }
+  .imgPortfolio {
+    width: 100%;
+    height: auto;
+  }
 }

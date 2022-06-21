@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="/scss/styles.css">
+    <link rel="stylesheet" href="/scss/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;400&family=Radio+Canada:wght@400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap"
         rel="stylesheet">
     <title>Contacto</title>
 </head>
@@ -66,92 +66,110 @@
             </div>
         </nav>
     </header>
-    <div class="all-margin-top">
 
-    <!-- Formulario - Formulario - Formulario - Formulario - Formulario - Formulario - Formulario - Formulario - Formulario - Formulario -->
-    <div class="flex-container-contacto">
-        <div class="flex-hijo-contacto" id="img-contacto">
-            <img src="../img/img-contacto.png" alt="" id="imagenNO">
+    <div class="all-contacto-margin-top">
+        <!-- Bienvenida -->
+
+        <div class="banner-contacto">
+            <h1>¿Cómo puedo ayudarte?</h1>
         </div>
-        <div class="contacto flex-hijo-contacto">
-            <div>
-                <h1 class="titulo-formcontacto">Formulario de contacto</h1>
-                <h3 class="subtitulo-formcontacto">Quiero saber sobre vos</h3>
+
+        <!-- Formulario -->
+        <main class="d-flex flex-row justify-content-between bd-highlight">
+            <div class="contacto">
+                <div class="contacto-hijo">
+                    <h2 class="titulo-formcontacto">Formulario de contacto</h2>
+                    <h3 class="subtitulo-formcontacto">Quiero saber sobre vos</h3>
+                </div>
+                <form action="" method="get" class="contacto-hijo">
+                    <label for="" class="form-label col-form-label form-etiqueta">¿Cómo te llamas?</label>
+                    <div class="row g-2">
+                        <div class="col-lg-4 col-12">
+                            <input type="text" class="form-control col-form-label" placeholder="Nombre">
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <input type="text" class="form-control col-form-label" placeholder="Apellido">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <label for="" class="form-label col-form-label form-etiqueta">¿Cuál es tu correo
+                            electrónico?</label>
+                        <input type="email" class="form-control col-form-label" placeholder="iara@mail.com">
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <label for="" class="form-label col-form-label form-etiqueta">¿Dónde vives?</label>
+                        <input type="text" class="form-control col-form-label" placeholder="Ciudad, país">
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <label for="inputState" class="form-label col-form-label form-etiqueta">¿Qué servicio te
+                            interesa?</label>
+                        <select id="inputState" class="form-select col-form-label">
+                            <option class="form-etiqueta">Social Media Manager</option>
+                            <option class="form-etiqueta">Branding</option>
+                            <option class="form-etiqueta">Product Manager</option>
+                            <option class="form-etiqueta">Desarrollo Web</option>
+                            <option class="form-etiqueta">Asesoría</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <label for="" class="form-label col-form-label form-etiqueta">Cuentame sobre tu proyecto</label>
+                        <textarea name="Proyecto" class="form-control col-form-label" id="proyecto" cols="50" rows="10"
+                            placeholder="Qué haces, para quién y qué objetivo quieres conseguir con mis servicios"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="checkbox" name="Newsletter" id="newsletter" class="col-form-label">
+                            <label for="newsletter" class="col-form-label form-etiqueta">Quiero suscribirme al
+                                newstletter
+                                para
+                                recibir
+                                información cada mes
+                                :)</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" name="Newsletter" id="newsletter" class="col-form-label">
+                            <label for="newsletter" class="col-form-label form-etiqueta">Acepto los términos y
+                                condiciones</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn form-etiqueta btn-enviar">Enviar el formulario</button>
+                    </div>
+                </form>
             </div>
-            <form action="" method="get">
-                <label for="" class="form-label col-form-label form-etiqueta">¿Cómo te llamas?</label>
-                <div class="row g-2">
-                    <div class="col-md-4 col-12">
-                        <input type="text" class="form-control col-form-label" placeholder="Nombre">
-                    </div>
-                    <div class="col-md-4 col-12">
-                        <input type="text" class="form-control col-form-label" placeholder="Apellido">
-                    </div>
-                </div>
-                <div class="col-md-8 col-12">
-                    <label for="" class="form-label col-form-label form-etiqueta">¿Cuál es tu correo
-                        electrónico?</label>
-                    <input type="email" class="form-control col-form-label" placeholder="iara@mail.com">
-                </div>
-                <div class="col-md-8 col-12">
-                    <label for="" class="form-label col-form-label form-etiqueta">¿Dónde vives?</label>
-                    <input type="text" class="form-control col-form-label" placeholder="Ciudad, país">
-                </div>
-                <div class="col-md-8 col-12">
-                    <label for="inputState" class="form-label col-form-label form-etiqueta">¿Qué servicio te
-                        interesa?</label>
-                    <select id="inputState" class="form-select col-form-label">
-                        <option class="form-etiqueta">Social Media Manager</option>
-                        <option class="form-etiqueta">Branding</option>
-                        <option class="form-etiqueta">Product Manager</option>
-                        <option class="form-etiqueta">Desarrollo Web</option>
-                        <option class="form-etiqueta">Asesoría</option>
-                    </select>
-                </div>
-                <div class="col-md-8 col-12">
-                    <label for="" class="form-label col-form-label form-etiqueta">Cuentame sobre tu proyecto</label>
-                    <textarea name="Proyecto" class="form-control col-form-label" id="proyecto" cols="50" rows="10"
-                        placeholder="Qué haces, para quién y qué objetivo quieres conseguir con mis servicios"></textarea>
-                </div>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input type="checkbox" name="Newsletter" id="newsletter" class="col-form-label">
-                        <label for="newsletter" class="col-form-label form-etiqueta">Quiero suscribirme al newstletter
-                            para
-                            recibir
-                            información cada mes
-                            :)</label>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn form-etiqueta btn-enviar">Enviar el formulario</button>
-                </div>
-            </form>
+            <div class="img-oculta">
+                <img src="../img/rosas-contacto.png" alt="Imagen formulario">
+            </div>
+        </main>
+
+        <div class="term-cond">
+            <hr/>
+            <p>. Terminos y condiciones .</p>
+        </div>
+
+        <div class="d-flex flex-column bd-highlight align-items-center footer">
+            <div class="p-2 bd-highlight enlaceNO"><a href="./portfolio.html">Portfolio</a></div>
+            <div class="p-2 bd-highlight enlaceNO"><a href="./servicios.html">Servicios</a></div>
+            <div class="p-2 bd-highlight enlaceNO"><a href="./blog.html">Blog</a></div>
+            <div class="p-2 bd-highlight enlaceNO"><a href="./sobre_mi.html">Sobre mi</a></div>
+            <div class="p-2 bd-highlight enlaceNO"><a href="./contacto.html">Contacto</a></div>
+        </div>
+
+        <div class="footer">
+            <div class="d-flex justify-content-start">
+                <p class="footer-texto" id="bold">Contactame!</p>
+            </div>
+            <div class="d-flex justify-content-start">
+                <a href="mailto:iarafigueiraa@gmail.com" class="footer-texto">iarafigueiraa@gmail.com</a>
+            </div>
+            <div class="d-flex justify-content-end footer-derechos">Todos los derechos reservados - Iara Figueira - 2022
+            </div>
         </div>
     </div>
 
-    <div class="d-flex flex-column bd-highlight align-items-center footer-sobremi">
-        <div class="p-2 bd-highlight enlaceNO"><a href="./portfolio.html">Portfolio</a></div>
-        <div class="p-2 bd-highlight enlaceNO"><a href="./servicios.html">Servicios</a></div>
-        <div class="p-2 bd-highlight enlaceNO"><a href="./blog.html">Blog</a></div>
-        <div class="p-2 bd-highlight enlaceNO"><a href="./sobre_mi.html">Sobre mi</a></div>
-        <div class="p-2 bd-highlight enlaceNO"><a href="./contacto.html">Contacto</a></div>
-    </div>
-
-    <div class="footer-sobremi">
-        <div class="d-flex justify-content-start">
-            <p class="footer-texto" id="bold">Contactame!</p>
-        </div>
-        <div class="d-flex justify-content-start">
-            <a href="mailto:iarafigueiraa@gmail.com" class="footer-texto">iarafigueiraa@gmail.com</a>
-        </div>
-        <div class="d-flex justify-content-end footer-derechos">Todos los derechos reservados - Iara Figueira - 2022
-        </div>
-    </div>
-</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        </script>
     </body>
 
 </html>

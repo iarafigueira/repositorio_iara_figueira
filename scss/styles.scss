@@ -1,5 +1,7 @@
 @import "navbar";
 @import "footer";
+@import "variables";
+@import "mixins";
 
 * {
   margin: 0px;
@@ -7,46 +9,19 @@
   box-sizing: border-box;
 }
 
-.caja-quiensoy {
-  margin: 5% 10%;
-}
+.all-index-margin-top {
+  margin-top: 5%;
 
-.newsletter {
-  background-color: #111a67;
-  margin-top: 0.5%;
-  padding-left: 7%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-
-  .texto-newsletter {
-    font-family: "Montserrat";
-    font-size: 12pt;
-    color: white;
+  .btn-next-previous {
+    display: none;
   }
-}
 
-.contenedor-imagenes-index {
-  display: flex;
-  justify-content: space-around;
-
-  .imagenes-index {
-    display: inline;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .carousel-caption {
+    p {
+      display: none;
+    }
   }
-}
 
-.caja-quiensoy {
-  margin: 5% 10%;
-}
-
-@media screen and (max-width: 768px) {
-  .all-margin-top {
-    margin-top: 7%;
-  }
   .servicios-index {
     display: grid;
     grid-template-columns: repeat(2 1fr);
@@ -76,16 +51,6 @@
     }
   }
 
-  .btn-next-previous {
-    display: none;
-  }
-
-  .carousel-caption {
-    p {
-      display: none;
-    }
-  }
-
   .caja-quiensoy {
     margin: 5% 10%;
 
@@ -102,27 +67,177 @@
       padding-top: 3% !important;
     }
   }
+
+  .newsletter {
+    background-color: #111a67;
+    margin-top: 0.5%;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    .titulo-newsletter {
+      font-family: "Montserrat";
+      font-size: 17pt;
+      font-weight: bold;
+      color: white;
+    }
+
+    .texto-newsletter {
+      font-family: "Montserrat";
+      font-size: 12pt;
+      color: white;
+    }
+  }
+
+  .contenedor-imagenes-index {
+    display: flex;
+    justify-content: space-around;
+
+    .img-index {
+      display: inline-block;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  main {
+    div {
+      position: relative;
+
+      .titulo-servicio-index {
+        position: absolute;
+        width: 100%;
+        top: 5%;
+        left: 3%;
+
+        p {
+          font-family: montserrat;
+          font-size: 20pt;
+        }
+      }
+    }
+  }
 }
 
-@media screen and (min-width: 769px) {
-    .all-margin-top {
-        margin-top: 3.5%;
+@media screen and (min-width: $desktop) {
+  .all-index-margin-top {
+    margin-top: 3.5%;
+
+    .carousel-caption {
+      p {
+        display: inline;
+      }
     }
 
     .servicios-index {
-        display: flex;
-        flex-direction: row;
+      display: flex;
+      flex-direction: row;
 
-        .img-servicios {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+      .img-servicios {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .img-index {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+}
+
+/* Contacto */
+
+.all-contacto-margin-top {
+  margin-top: 55px;
+
+  .banner-contacto {
+    background-color: #d9c9c7;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-family: Montserrat;
+      font-size: 30pt;
+      color: black;
+      padding: 10px;
+    }
+  }
+
+  .contacto {
+    margin: auto;
+    text-align: left;
+  }
+
+  .titulo-formcontacto {
+    font-family: Montserrat;
+    font-size: 18pt;
+    color: black;
+    text-align: left;
+    padding-top: 30px;
+  }
+
+  .subtitulo-formcontacto {
+    font-family: Montserrat;
+    font-size: 15pt;
+    color: black;
+    text-align: left;
+  }
+
+  div {
+    .form-etiqueta {
+      font-family: Montserrat;
+      font-size: 12pt;
+      color: black;
+      text-align: left;
+    }
+  }
+
+  div {
+    .btn-enviar {
+      background-color: #111a67;
+      font-family: Montserrat;
+      font-size: 12pt;
+      color: white;
     }
 
-    .imagenes-index {
-        display: inline;
-        margin-top: 0.5%;
-        margin-bottom: 0.5%;
+    .btn-enviar:hover {
+      background-color: #1d3496;
+      color: white;
     }
+  }
+
+  .term-cond {
+    margin: 5% auto 3% auto;
+
+    hr {
+      border: 1px solid black;
+      margin-left: 20%;
+      margin-right: 20%;
+
+    }
+
+    p {
+      font-family: Montserrat;
+      font-size: 12pt;
+      font-weight: bold;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .banner-contacto {
+    background-image: url(/img/banner-contacto.png);
+    background-repeat: no-repeat;
+  }
+  .img-oculta {
+    display: none;
+  }
 }
