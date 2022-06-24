@@ -1,6 +1,12 @@
 .fondo-navbar {
-  background-color: #d9c9c7;
+  background-color: #d9c9c7 !important;
+
   .color-navbar a {
-    color: #111a67 !important;
+    font-family: Montserrat !important;
+    font-size: 13pt !important;
+  }
+  
+  .color-title{
+    color: black !important;
   }
 }

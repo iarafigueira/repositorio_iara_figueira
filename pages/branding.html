@@ -5,23 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicio de branding y re-branding. Creación de la identidad visual de tu marca">
+    <meta name="keywords" content="iara figueira, branding, identidad visual, identidad corporativa, creación de logo">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="/scss/styles.css">
+    <link rel="stylesheet" href="/scss/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;400&family=Radio+Canada:wght@400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap"
         rel="stylesheet">
     <title>Branding | Servicios</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fondo-navbar fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light fondo-navbar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../img/logo_home.png" alt="" width="152,67" height="18,17">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/img/logo.png" alt="Logo IARA" width="200" height="auto">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -31,34 +33,42 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item color-navbar">
-                            <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
+                            <a class="nav-link disabled" aria-current="page" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item dropdown color-navbar">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle color-title" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="color-navbar"><a class="dropdown-item"
-                                        href="./social_media_manager.html">Social Media Manager</a></li>
-                                <li class="color-navbar"><a class="dropdown-item" href="./branding.html">Branding</a>
-                                </li>
-                                <li class="color-navbar"><a class="dropdown-item" href="./product_manager.html">Product
+                                <li class="nav-item color-navbar"><a class="dropdown-item color-title"
+                                        href="/pages/branding.html">Branding</a></li>
+                                <li class="nav-item color-navbar"><a class="dropdown-item color-title"
+                                        href="/pages/social_media_manager.html">Social
+                                        Media Manager</a></li>
+                                <li class="nav-item color-navbar"><a class="dropdown-item disabled" href="#">Community
                                         Manager</a></li>
-                                <li class="color-navbar"><a class="dropdown-item"
-                                        href="./desarrollo_web.html">Desarrollo Web</a></li>
+                                <li class="nav-item color-navbar"><a class="dropdown-item disabled" href="#">Product
+                                        Manager</a></li>
+                                <li class="nav-item color-navbar"><a class="dropdown-item disabled" href="#">Desarrollo
+                                        Web</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="./asesoria.html">Asesoría</a></li>
+                                <li class="color-navbar disabled"><a class="dropdown-item disabled"
+                                        href="#">Asesoría</a></li>
                             </ul>
                         </li>
                         <li class="nav-item color-navbar">
-                            <a class="nav-link active" aria-current="page" href="./blog.html">Blog</a>
+                            <a class="nav-link color-title" aria-current="page" href="/pages/blog.html">Blog</a>
                         </li>
                         <li class="nav-item color-navbar">
-                            <a class="nav-link active" aria-current="page" href="./sobre_mi.html">Sobre mi</a>
+                            <a class="nav-link disabled" aria-current="page" href="#">Recursos gratuitos</a>
                         </li>
                         <li class="nav-item color-navbar">
-                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                            <a class="nav-link disabled" aria-current="page" href="#">Sobre
+                                mi</a>
+                        </li>
+                        <li class="nav-item color-navbar">
+                            <a class="nav-link color-title" aria-current="page" href="/pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -66,22 +76,198 @@
         </nav>
     </header>
 
-    <div class="all-margin-top">
 
-        <div class="footer">
+    <section class="container-banner-branding">
+        <div class="texto-branding">
+            <h1>Lo que construye la marca no es el mensaje sino la experiencia que se vive con ella</h1>
+        </div>
+        <div class="flex-img-branding">
+            <img src="/img/branding_banner.png" alt="Imagen fondo del banner de presentación" class="img-banner-branding">
+        </div>
+    </section>
+    <main class="all-branding">
+        <div class="row margin-flex-branding">
+            <div class="col-12">
+                <h4>¿Te cuesta comunicar tu propuesta de valor? ¿No atraes el perfil de cliente que deseas? ¿Sentis
+                    que
+                    te expresas de una forma que no es acorde a lo que deseas proyectar? ¿Tu línea grafica no
+                    mantiene
+                    el mismo estilo y tono en toda la comunicación? ¿Los colores, el nombre y logotipo que lleva tu
+                    marca no están alineados a la personalidad y valor de tu empresa? ¿La identidad que tiene tu
+                    marca
+                    no refleja la personalidad con la que te identificas? ¿Tu marca no destaca de la multitud?
+                    ¿Quieres
+                    una imagen más moderna?
+                </h4>
+            </div>
+            <div class="col-lg-8 col-12 container-objetivos-branding">
+                <h5>Juntos podemos conseguir</h5>
+                <p><strong>Destacar</strong> llegando al público correcto, emocionándolo con tu branding y
+                    logrando
+                    que te recuerden
+                    antes que a tu competencia.</p>
+                <p><strong>Escalar</strong> distinguiéndote en tu sector con un diseño coherente mediante tus
+                    valores y generando
+                    la
+                    confianza que tu cliente necesita.</p>
+                <p><strong>Encaminar</strong> asentando las bases de tu proyecto desde el inicio hasta el final
+                    para tener una
+                    visión
+                    clara de quien sos, hacia donde vas y que quieres conseguir.
+                </p>
+            </div>
+            <div class="col-lg-4 col-12 container-img-inicio">
+                <img src="/img/branding_inicio.jpg" alt="Imagen de la sección de objetivos" class="img-fluid img-inicio">
+            </div>
+        </div>
+        <div class="bg-identidad-branding">
+            <p>La identidad es el primer paso para conseguir el éxito con tu marca. </p>
+            <p>Una imagen de marca potente te ayudará a posicionar tu empresa en la sociedad.</p>
+        </div>
+        <section class="margin-incluye">
+            <article class="incluye-branding">
+                <h5 class="titulo-i">¿Qué incluye?</h5>
+                <p>Duración entre 8 y 12 semanas aprox.</p>
+            </article>
+            <hr class="line-incluye">
+            <article class="incluye-branding">
+                <ul>
+                    <li>Análisis y estrategia de marca.</li>
+                    <li>Desarrollo de moodboard.</li>
+                    <li>Diseño de identidad: logo principal, variaciones del logo, paleta de colores y familia
+                        tipográfica.</li>
+                    <li>Manual de Identidad y estilo.</li>
+                    <li>Firma de correo electrónico.</li>
+                    <li><strong>De regalo:</strong> Contenido para RRSS: 3 plantillas de publicaciones, 3 plantillas
+                        de
+                        historias, 3 portadas de historias destacadas, foto de perfil y diseño integral de feed de
+                        IG (9
+                        imágenes).</li>
+                </ul>
+            </article>
+            <hr>
+            <article class="incluye-branding">
+                <p><strong>Importante:</strong> Las piezas de aplicación de la identidad se
+                    pueden reemplazar, cambiar
+                    o sumar extras según lo necesite tu proyecto. Lo definiremos previamente para el desarrollo de
+                    tu propuesta.</p>
+            </article>
+            <hr>
+        </section>
+        <div class="container-desarrollemos">
+            <div class="titulo-desarrollemos">
+                <h5>Desarrollemos tu Branding</h5>
+            </div>
+            <div class="subtitulo-desarrollemos">
+                <p>La identidad de tu marca debe reflejar la energía de una
+                    comunidad,
+                    crear coherencia e implantar un concepto dentro de la mente de las personas.</p>
+            </div>
+            <img src="/img/branding_desarrollemos.jpg" alt="Imagen de la sección del desarrollo" class="img-desarrollemos">
+        </div>
+        <article class="etapas">
+            <section class="row container-etapas bg-etapas1">
+                <div class="col-lg-4 col-12 titulo-etapa">Etapa #1</div>
+                <div class="col-lg-8 col-12 descripcion-etapa"><strong>Conocerte en detalle:</strong> Necesitaré
+                    saber todo sobre vos
+                    y tu negocio.
+                    Tras la reunión de
+                    presentación, te pediré que respondas un cuestionario. En el mientras tanto, investigaré tu
+                    sector. El objetivo es sentar la base estratégica de tu marca. Esto nos servirá de guía
+                    durante todo el trabajo juntos.</div>
+            </section>
+            <section class="row container-etapas bg-etapas2" id="v-mobile-etapas">
+                <div class="col-lg-4 col-12 titulo-etapa">Etapa #2</div>
+                <div class="col-lg-8 col-12 descripcion-etapa"><strong>Creación:</strong> Transformación de la
+                    estrategia de marca
+                    definida en la
+                    identidad visual que te
+                    representará y deslumbrará a tu cliente ideal. Crearé una propuesta de diseño que contendrá
+                    todos los elementos que necesites para llegar a tu público. </div>
+            </section>
+            <section class="row container-etapas bg-etapas3">
+                <div class="col-lg-4 col-12 titulo-etapa">Etapa #3</div>
+                <div class="col-lg-8 col-12 descripcion-etapa"><strong>Poner a punto los diseños:</strong> En esta
+                    fase trabajaremos
+                    juntos para
+                    perfilar los bocetos
+                    presentados. El objetivo es pulir los detalles y poner a punto tu marca para que se adapte
+                    100% a tu estrategia y a los objetivos que quieres cumplir. </div>
+            </section>
+            <section class="row container-etapas bg-etapas4" id="v-mobile-etapas2">
+                <div class="col-lg-4 col-12 titulo-etapa">Etapa #4</div>
+                <div class="col-lg-8 col-12 descripcion-etapa"><strong>Tu marca está lista para brillar:
+                    </strong>Cuando la identidad
+                    visual esté
+                    definida y sea tal cual lo
+                    hayas imaginado, te entregaré los archivos que creé para vos. También, te enviaré un manual
+                    de uso completo para que sepas como mostrarle a todos tu nueva marca y puedas atraer cada
+                    vez más clientes.</div>
+            </section>
+        </article>
+        <div>
+            <h5>¿Te gustaría algo más completo?</h5>
+            <p>Completa tu branding con estos servicios extra. Estaré encantada de poder
+                ayudarte en cualquier
+                momento.</p>
+            <ul>
+                <li>Papelería:
+                    <p>Materializamos tu identidad en un soporte físico para tu oficina.</p>
+                    <div>
+                        <p>- Tarjetas de presentación, tarjetones, facturas, menú/carta restaurantes, carta o sobre,
+                            bloc de notas. *</p>
+                    </div>
+                </li>
+                <li>Comunicación:
+                    <p>Es imprescindible si quieres que tu producto destaque.</p>
+                    <div>
+                        <p>- Pegatinas, cintas de embalar, bolsas, cajas, envases. *</p>
+                    </div>
+                </li>
+            </ul>
+            <p>*No incluye el material impreso, solo los archivos gráficos. </p>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="caja-footer">
+            <div class="servicios-footer border-servicios-footer">
+                <p class="titulo-footer">SERVICIOS</p>
+                <div class="enlaces-footer"><a href="branding.html">Branding</a></div>
+                <div class="enlaces-footer"><a href="social_media_manager.html">Social Media Manager</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">Community Manager</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">Product Manager</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">Desarrollo web</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">Asesoria</a></div>
+            </div>
+            <div class="servicios-footer">
+                <p class="titulo-footer">REDES SOCIALES</p>
+                <div class="enlaces-footer"><a href="#" id="disabled">Instagram</a></div>
+                <div class="enlaces-footer"><a href="https://www.linkedin.com/in/iarafigueira/"
+                        target="_blank">LinkedIn</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">WhatsApp</a></div>
+            </div>
+        </div>
+        <hr>
+        <div>
             <div class="d-flex justify-content-start">
-                <p class="footer-texto" id="bold">Contactame!</p>
+                <p class="footer-texto" id="bold"><strong>Contactame!</strong></p>
             </div>
             <div class="d-flex justify-content-start">
                 <a href="mailto:iarafigueiraa@gmail.com" class="footer-texto">iarafigueiraa@gmail.com</a>
             </div>
-            <div class="d-flex justify-content-end footer-derechos">Todos los derechos reservados - Iara Figueira - 2022
+            <div class="d-flex justify-content-center footer-derechos">Todos los derechos reservados - Iara Figueira
+                -
+                2022
             </div>
         </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>

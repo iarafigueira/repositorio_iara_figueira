@@ -5,23 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Te comparto las ideas que surgen por mi mente e información de valor que te va a ayudar a desarrollar tu negocio">
+    <meta name="keywords"
+        content="iara figueira, blog, escritura sobre el mundo digital, blog de marketing, blog de desarrollo, blog de branding">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="/scss/styles.css">
+    <link rel="stylesheet" href="/scss/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;400&family=Radio+Canada:wght@400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap"
         rel="stylesheet">
     <title>Blog</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fondo-navbar fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light fondo-navbar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../img/logo_home.png" alt="" width="152,67" height="18,17">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/img/logo.png" alt="Logo IARA" width="200" height="auto">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -31,253 +35,239 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item color-navbar">
-                            <a class="nav-link active" aria-current="page" href="./portfolio.html">Portfolio</a>
+                            <a class="nav-link disabled" aria-current="page" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item dropdown color-navbar">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle color-title" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li class="color-navbar"><a class="dropdown-item"
-                                        href="./social_media_manager.html">Social Media Manager</a></li>
-                                <li class="color-navbar"><a class="dropdown-item" href="./branding.html">Branding</a>
-                                </li>
-                                <li class="color-navbar"><a class="dropdown-item" href="./product_manager.html">Product
+                                <li class="nav-item color-navbar"><a class="dropdown-item color-title"
+                                        href="/pages/branding.html">Branding</a></li>
+                                <li class="nav-item color-navbar"><a class="dropdown-item color-title"
+                                        href="/pages/social_media_manager.html">Social
+                                        Media Manager</a></li>
+                                <li class="nav-item color-navbar"><a class="dropdown-item disabled" href="#">Community
                                         Manager</a></li>
-                                <li class="color-navbar"><a class="dropdown-item"
-                                        href="./desarrollo_web.html">Desarrollo
+                                <li class="nav-item color-navbar"><a class="dropdown-item disabled" href="#">Product
+                                        Manager</a></li>
+                                <li class="nav-item color-navbar"><a class="dropdown-item disabled" href="#">Desarrollo
                                         Web</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="./asesoria.html">Asesoría</a></li>
+                                <li class="color-navbar disabled"><a class="dropdown-item disabled"
+                                        href="#">Asesoría</a></li>
                             </ul>
                         </li>
                         <li class="nav-item color-navbar">
-                            <a class="nav-link active" aria-current="page" href="./blog.html">Blog</a>
+                            <a class="nav-link color-title" aria-current="page" href="/pages/blog.html">Blog</a>
                         </li>
                         <li class="nav-item color-navbar">
-                            <a class="nav-link active" aria-current="page" href="./sobre_mi.html">Sobre mi</a>
+                            <a class="nav-link disabled" aria-current="page" href="#">Recursos gratuitos</a>
                         </li>
                         <li class="nav-item color-navbar">
-                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                            <a class="nav-link disabled" aria-current="page" href="#">Sobre
+                                mi</a>
+                        </li>
+                        <li class="nav-item color-navbar">
+                            <a class="nav-link color-title" aria-current="page" href="/pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    
+    <!-- Bienvenida -->
 
-    <!--     <h2 class="bannerBlog">Aquí sólo se sueña en grande</h2>
- -->
-    <div class="all-margin-top">
+    <div class="banner-blog">
+        <h1 class="titulo-blog">Bienvenido al mundo de las ideas</h1>
+    </div>
 
-        <div class="caja-posteos">
-            <div class="d-flex">
-                <div class="flex-shrink-0">
-                    <img src="../img/blog_template.png" alt="Template de posteo Blog" class="imgPosteo">
+    <hr class="line-blog">
+
+    <!-- Posteos -->
+    <section class="grilla-blog">
+        <div class="container-img caja-img1">
+            <img src="/img/blog_posteo1.jpg" alt="Imagen del posteo Solo quiero un logo" class="img-posteos">
+        </div>
+        <div class="container-posteos caja-posteo1">
+            <p class="titulo-p">"Sólo quiero un logo"</p>
+            <p class="resumen-p"><strong>NO. No hago logos, hago marcas.</strong> Lorem ipsum
+                dolor sit, amet consectetur
+                adipisicing
+                elit.
+                Maxime tenetur culpa dolores, reprehenderit iste ipsam odit molestias modi recusandae
+                aliquam
+                error nesciunt sunt unde repudiandae! Nostrum ducimus voluptatem quod rem.
+                Accusantium quisquam repellendus temporibus tempora et possimus expedita pariatur unde
+                recusandae? Labore earum quibusdam hic fugit ab cumque vel, eaque eius nihil. Quo laudantium
+                tempora impedit vero, ipsum aperiam id!</p>
+            <button type="button" class="btn btn-lg btn-p" disabled>Ver más</button>
+            <hr>
+        </div>
+        <div class="container-img caja-img2">
+            <img src="/img/blog_posteo2.jpg" alt="Imagen del posteo Email Marketing" class="img-posteos">
+        </div>
+        <div class="container-posteos caja-posteo2">
+            <p class="titulo-p">¿Sirve el Email Marketing?</p>
+            <p class="resumen-p"><strong>Todo lo que tenes que saber sobre el email marketing.</strong> Lorem ipsum
+                dolor sit, amet consectetur
+                adipisicing
+                elit.
+                Maxime tenetur culpa dolores, reprehenderit iste ipsam odit molestias modi recusandae
+                aliquam
+                error nesciunt sunt unde repudiandae! Nostrum ducimus voluptatem quod rem.
+                Accusantium quisquam repellendus temporibus tempora et possimus expedita pariatur unde
+                recusandae? Labore earum quibusdam hic fugit ab cumque vel, eaque eius nihil. Quo laudantium
+                tempora impedit vero, ipsum aperiam id!</p>
+            <button type="button" class="btn btn-lg btn-p" disabled>Ver más</button>
+            <hr>
+        </div>
+        <div class="container-img caja-img3">
+            <img src="/img/blog_posteo3.jpg" alt="Imagen del posteo BRIEFING" class="img-posteos">
+        </div>
+        <div class="container-posteos caja-posteo3">
+            <p class="titulo-p">BRIEFING ¿Qué es y como crearlo?</p>
+            <p class="resumen-p"><strong>Toda la información que se necesita para aplicar a una estrategia.</strong>
+                Lorem ipsum dolor sit, amet consectetur
+                adipisicing
+                elit.
+                Maxime tenetur culpa dolores, reprehenderit iste ipsam odit molestias modi recusandae
+                aliquam
+                error nesciunt sunt unde repudiandae! Nostrum ducimus voluptatem quod rem.
+                Accusantium quisquam repellendus temporibus tempora et possimus expedita pariatur unde
+                recusandae? Labore earum quibusdam hic fugit ab cumque vel, eaque eius nihil. Quo laudantium
+                tempora impedit vero, ipsum aperiam id!</p>
+            <button type="button" class="btn btn-lg btn-p" disabled>Ver más</button>
+            <hr>
+        </div>
+        <div class="container-img caja-img4">
+            <img src="/img/blog_posteo4.jpg" alt="Imagen del posteo Filtros en Instagram" class="img-posteos">
+        </div>
+        <div class="container-posteos caja-posteo4">
+            <p class="titulo-p">Filtros en Instagram</p>
+            <p class="resumen-p"><strong>Cómo funcionan los filtros + herramientas.</strong> Lorem ipsum dolor sit,
+                amet consectetur
+                adipisicing
+                elit.
+                Maxime tenetur culpa dolores, reprehenderit iste ipsam odit molestias modi recusandae
+                aliquam
+                error nesciunt sunt unde repudiandae! Nostrum ducimus voluptatem quod rem.
+                Accusantium quisquam repellendus temporibus tempora et possimus expedita pariatur unde
+                recusandae? Labore earum quibusdam hic fugit ab cumque vel, eaque eius nihil. Quo laudantium
+                tempora impedit vero, ipsum aperiam id!</p>
+            <button type="button" class="btn btn-lg btn-p" disabled>Ver más</button>
+            <hr>
+        </div>
+        <div class="container-img caja-img5">
+            <img src="/img/blog_posteo5.jpg" alt="Imagen del posteo Identidad visual en Instagram" class="img-posteos">
+        </div>
+        <div class="container-posteos caja-posteo5">
+            <p class="titulo-p">Identidad visual en Instagram: ¿cómo crear tu estilo visual?.</p>
+            <p class="resumen-p"><strong>Importancia de tener un estilo visual en Instagram</strong> Lorem ipsum
+                dolor sit, amet consectetur
+                adipisicing
+                elit.
+                Maxime tenetur culpa dolores, reprehenderit iste ipsam odit molestias modi recusandae
+                aliquam
+                error nesciunt sunt unde repudiandae! Nostrum ducimus voluptatem quod rem.
+                Accusantium quisquam repellendus temporibus tempora et possimus expedita pariatur unde
+                recusandae? Labore earum quibusdam hic fugit ab cumque vel, eaque eius nihil. Quo laudantium
+                tempora impedit vero, ipsum aperiam id!</p>
+            <button type="button" class="btn btn-lg btn-p" disabled>Ver más</button>
+            <hr>
+        </div>
+        <div class="container-img caja-img6">
+            <img src="/img/blog_posteo6.jpg" alt="Imagen del posteo Estratégias de marketing en Instagram"
+                class="img-posteos">
+        </div>
+        <div class="container-posteos caja-posteo6">
+            <p class="titulo-p">Estratégias de marketing en Instagram.</p>
+            <p class="resumen-p"><strong>26 estratégias para implementar AHORA</strong> Lorem ipsum dolor sit, amet
+                consectetur
+                adipisicing
+                elit.
+                Maxime tenetur culpa dolores, reprehenderit iste ipsam odit molestias modi recusandae
+                aliquam
+                error nesciunt sunt unde repudiandae! Nostrum ducimus voluptatem quod rem.
+                Accusantium quisquam repellendus temporibus tempora et possimus expedita pariatur unde
+                recusandae? Labore earum quibusdam hic fugit ab cumque vel, eaque eius nihil. Quo laudantium
+                tempora impedit vero, ipsum aperiam id!</p>
+            <button type="button" class="btn btn-lg btn-p" disabled>Ver más</button>
+            <hr>
+        </div>
+        <aside class="caja-aside caja-aside1">
+            <a href="/pages/sobre_mi.html"><img src="/img/blog_template.jpg" alt="" class="img-aside"></a>
+        </aside>
+        <aside class="caja-aside caja-aside2">
+            <a href="/pages/sobre_mi.html"><img src="/img/blog_template.jpg" alt="" class="img-aside"></a>
+        </aside>
+    </section>
+
+    <!-- Formulario - Newsletter -->
+    <form>
+        <div class="newsletter">
+            <div>
+                <p class="titulo-newsletter">Love for newsletter</p>
+            </div>
+            <div>
+                <p class="texto-newsletter">Dejame tu email para no perderte de las novedades</p>
+            </div>
+            <div class="row g-2">
+                <div class="col-md-2 col-4 col-form-label form-etiqueta">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Nombre">
                 </div>
-                <div class="flex-grow-1 ms-3">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque.
+                <div class="col-md-2 col-4 col-form-label form-etiqueta">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Apellido">
                 </div>
             </div>
-            <div class="d-flex">
-                <div class="flex-shrink-0">
-                    <img src="../img/blog_template.png" alt="Template de posteo Blog" class="imgPosteo">
-                </div>
-                <div class="flex-grow-1 ms-3">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque.
-                </div>
+            <div class="col-md-4 col-8 col-form-label form-etiqueta">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Correo electrónico">
             </div>
-            <div class="d-flex">
-                <div class="flex-shrink-0">
-                    <img src="../img/blog_template.png" alt="Template de posteo Blog" class="imgPosteo">
-                </div>
-                <div class="flex-grow-1 ms-3">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque.
-                </div>
-            </div>
-            <div class="d-flex">
-                <div class="flex-shrink-0">
-                    <img src="../img/blog_template.png" alt="Template de posteo Blog" class="imgPosteo">
-                </div>
-                <div class="flex-grow-1 ms-3">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque.
-                </div>
-            </div>
-            <div class="d-flex">
-                <div class="flex-shrink-0">
-                    <img src="../img/blog_template.png" alt="Template de posteo Blog" class="imgPosteo">
-                </div>
-                <div class="flex-grow-1 ms-3">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque.
-                </div>
-            </div>
-            <div class="d-flex">
-                <div class="flex-shrink-0">
-                    <img src="../img/blog_template.png" alt="Template de posteo Blog" class="imgPosteo">
-                </div>
-                <div class="flex-grow-1 ms-3">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, impedit, neque
-                    explicabo sit ullam officia
-                    fuga aperiam aspernatur laboriosam vitae facilis praesentium modi excepturi voluptas a, ipsa dolore
-                    quidem
-                    placeat.
-                    Totam, libero repellendus officia quos sunt magni odio tempora impedit iure sapiente? Officia,
-                    facere
-                    quaerat quo, sint sed laboriosam inventore ipsa vel assumenda quam, autem impedit debitis tempore
-                    reiciendis
-                    doloremque.
-                </div>
+            <div class="col-12 col-form-label form-etiqueta">
+                <button type="submit" class="btn btn-primary">¡Suscribirme!</button>
             </div>
         </div>
+    </form>
 
-        <!-- Formulario - Newsletter -->
-        <form>
-            <div class="newsletter">
-                <div>
-                    <h4 class="texto-newsletter"><strong>Love for newsletter</strong></h4>
-                </div>
-                <div>
-                    <p class="texto-newsletter">Dejame tu email para no perderte de las novedades</p>
-                </div>
-                <div class="row g-2">
-                    <div class="col-md-2 col-form-label form-etiqueta">
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Nombre">
-                    </div>
-                    <div class="col-md-2 col-form-label form-etiqueta">
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Apellido">
-                    </div>
-                </div>
-                <div class="col-md-4 col-form-label form-etiqueta">
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Correo electrónico">
-                </div>
-                <div class="col-12 col-form-label form-etiqueta">
-                    <button type="submit" class="btn btn-primary">¡Suscribirme!</button>
-                </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="caja-footer">
+            <div class="servicios-footer border-servicios-footer">
+                <p class="titulo-footer">SERVICIOS</p>
+                <div class="enlaces-footer"><a href="branding.html">Branding</a></div>
+                <div class="enlaces-footer"><a href="social_media_manager.html">Social Media Manager</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">Community Manager</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">Product Manager</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">Desarrollo web</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">Asesoria</a></div>
             </div>
-        </form>
-
-
-        <div class="d-flex flex-column bd-highlight align-items-center footer">
-            <div class="p-2 bd-highlight enlaceNO"><a href="./portfolio.html">Portfolio</a></div>
-            <div class="p-2 bd-highlight enlaceNO"><a href="./servicios.html">Servicios</a></div>
-            <div class="p-2 bd-highlight enlaceNO"><a href="./blog.html">Blog</a></div>
-            <div class="p-2 bd-highlight enlaceNO"><a href="./sobre_mi.html">Sobre mi</a></div>
-            <div class="p-2 bd-highlight enlaceNO"><a href="./contacto.html">Contacto</a></div>
+            <div class="servicios-footer">
+                <p class="titulo-footer">REDES SOCIALES</p>
+                <div class="enlaces-footer"><a href="#" id="disabled">Instagram</a></div>
+                <div class="enlaces-footer"><a href="https://www.linkedin.com/in/iarafigueira/"
+                        target="_blank">LinkedIn</a></div>
+                <div class="enlaces-footer"><a href="#" id="disabled">WhatsApp</a></div>
+            </div>
         </div>
-
-        <div class="footer">
+        <hr>
+        <div>
             <div class="d-flex justify-content-start">
-                <p class="footer-texto" id="bold">Contactame!</p>
+                <p class="footer-texto" id="bold"><strong>Contactame!</strong></p>
             </div>
             <div class="d-flex justify-content-start">
                 <a href="mailto:iarafigueiraa@gmail.com" class="footer-texto">iarafigueiraa@gmail.com</a>
             </div>
-            <div class="d-flex justify-content-end footer-derechos">Todos los derechos reservados - Iara Figueira - 2022
+            <div class="d-flex justify-content-center footer-derechos">Todos los derechos reservados - Iara Figueira
+                -
+                2022
             </div>
         </div>
     </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
 </body>
 
