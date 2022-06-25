@@ -17,7 +17,7 @@
   font-family: "Montserrat";
   color: black !important;
 
-  .tit-banner-index{
+  .tit-banner-index {
     font-size: $tam-titulos;
     font-weight: bold;
   }
@@ -186,6 +186,7 @@ div {
     background-color: #1d3496;
     color: white;
   }
+
 }
 
 .term-cond {
@@ -452,6 +453,75 @@ div {
   .bg-etapas4 {
     background-color: #bfb2b0;
   }
+
+  .flex-container-planes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+
+    .titulo-planes {
+      font-family: $tipografia;
+      font-size: $tam-titulos;
+      font-weight: bold;
+      text-align: center;
+      color: black;
+    }
+
+    .subtitulo-planes {
+      font-family: $tipografia;
+      font-size: $tam-subtitulos;
+      text-align: center;
+      color: black;
+    }
+
+    .caja-planes {
+      margin: 2%;
+      background: #e6d5d3;
+      border-radius: 15px;
+      width: 600px;
+      height: 300px;
+      font-family: $tipografia;
+      font-size: $tam-subtitulos;
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .contenido-planes {
+        padding: 10%;
+        font-family: $tipografia;
+        font-size: $tam-subtitulos;
+        text-align: center;
+        color: black;
+        font-size: $tam-textos;
+        font-weight: lighter;
+      }
+
+      .form-etiqueta {
+        font-family: Montserrat;
+        font-size: $tam-textos;
+        color: black;
+        text-align: left;
+      }
+    }
+    .btn-enviar {
+      padding: 7px 15px;
+      background-color: #111a67;
+      font-family: Montserrat;
+      font-size: $tam-textos;
+      color: white;
+    }
+
+    .btn-enviar:hover {
+      background-color: #1d3496;
+      color: white;
+    }
+  }
 }
 
 @media screen and (min-width: $desktop) {
@@ -681,5 +751,149 @@ div {
       width: 250px;
       height: auto;
     }
+  }
+}
+
+/* Social Media Manager */
+
+.banner-socialmedia {
+  background-image: url(/img/social_media_banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .titulo-socialmedia {
+    background-color: #e6d5d3;
+    width: 100%;
+    font-family: $tipografia;
+    font-size: $tam-grande;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.flex-estrategia {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 8%;
+
+  .cajaA-estrategia {
+    text-align: center;
+    margin: 0 5%;
+
+    .titulo-estrategia {
+      font-family: $tipografia;
+      font-size: $tam-titulos;
+      color: black;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+
+  .cajaB-estrategia {
+    font-family: $tipografia;
+    font-size: $tam-textos;
+    color: black;
+  }
+}
+
+.bg-desenfocado {
+  background-image: url(/img/social_media_desenfocada.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .titulo-desenfoque {
+    font-family: $tipografia;
+    font-size: $tam-titulos;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .subtitulo-desenfoque {
+    font-family: $tipografia;
+    font-size: $tam-subtitulos;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+.info-ppal-plan {
+  font-family: $tipografia;
+  font-size: $tam-subtitulos;
+  color: black;
+  text-align: center;
+  padding: 3%;
+}
+
+.info-plan {
+  font-family: $tipografia;
+  font-size: $tam-textos;
+  color: black;
+}
+
+.margin-caja {
+  margin-top: 2%;
+}
+
+.line-smm {
+  margin: 2% 5%;
+}
+
+.preg-frec {
+  margin: 2% 0;
+  font-family: $tipografia;
+  font-size: $tam-subtitulos;
+  letter-spacing: 1px;
+  color: black;
+}
+.accordion {
+  font-family: $tipografia !important;
+  color: black !important;
+  font-size: $tam-textos !important;
+  margin: 0% 10% 5% 10%;
+}
+
+.bg-accordion {
+  background-color: #e6d5d3 !important;
+  color: black !important;
+}
+
+.flex-smm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 7%;
+}
+
+.CTA-smm{
+  font-family: $tipografia;
+  font-size: 14pt;
+  color: black;
+  text-align: center;
+}
+
+@media screen and (min-width: $desktop) {
+  .flex-estrategia {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 8%;
   }
 }
