@@ -209,7 +209,7 @@ div {
 
 @media screen and (max-width: $mobile) {
   .banner-contacto {
-    background-image: url(/img/contacto_fondo.png);
+    background-image: url(../img/contacto_fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -526,7 +526,7 @@ div {
 
 @media screen and (min-width: $desktop) {
   .container-banner-branding {
-    background-image: url(/img/branding_banner.png);
+    background-image: url(../img/branding_banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -584,7 +584,7 @@ div {
 /* Blog */
 
 .banner-blog {
-  background-image: url(/img/blog_banner.png);
+  background-image: url(../img/blog_banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -757,7 +757,7 @@ div {
 /* Social Media Manager */
 
 .banner-socialmedia {
-  background-image: url(/img/social_media_banner.png);
+  background-image: url(../img/social_media_banner.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
@@ -805,7 +805,7 @@ div {
 }
 
 .bg-desenfocado {
-  background-image: url(/img/social_media_desenfocada.png);
+  background-image: url(../img/social_media_desenfocada.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;

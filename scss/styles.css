@@ -247,7 +247,7 @@ div .btn-enviar:hover {
 
 @media screen and (max-width: 991px) {
   .banner-contacto {
-    background-image: url(/img/contacto_fondo.png);
+    background-image: url(../img/contacto_fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -520,7 +520,7 @@ div .btn-enviar:hover {
 
 @media screen and (min-width: 992px) {
   .container-banner-branding {
-    background-image: url(/img/branding_banner.png);
+    background-image: url(../img/branding_banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -571,7 +571,7 @@ div .btn-enviar:hover {
 }
 /* Blog */
 .banner-blog {
-  background-image: url(/img/blog_banner.png);
+  background-image: url(../img/blog_banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -711,7 +711,7 @@ div .btn-enviar:hover {
 }
 /* Social Media Manager */
 .banner-socialmedia {
-  background-image: url(/img/social_media_banner.png);
+  background-image: url(../img/social_media_banner.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
@@ -755,7 +755,7 @@ div .btn-enviar:hover {
 }
 
 .bg-desenfocado {
-  background-image: url(/img/social_media_desenfocada.png);
+  background-image: url(../img/social_media_desenfocada.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
