@@ -14,16 +14,16 @@
 }
 
 .carousel-caption {
-  font-family: "Montserrat";
   color: black !important;
 
   .tit-banner-index {
-    font-size: $tam-titulos;
-    font-weight: bold;
+    font-family: $tipografia-banner;
+    font-size: $tam-grande;
   }
   .sub-banner-index {
+    font-family: "Montserrat";
     display: none;
-    font-size: 15;
+    font-size: $tam-subtitulos;
   }
 }
 
@@ -133,13 +133,16 @@ div {
 /* Contacto */
 
 .banner-contacto {
-  height: 150px;
+  background-image: url(../img/contacto_fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
 
   h1 {
-    font-family: Montserrat;
+    font-family: $tipografia-banner;
     font-size: 30pt;
     color: black;
     padding: 10px;
@@ -148,10 +151,11 @@ div {
 
 .contacto {
   text-align: left;
+  margin: 5%;
 }
 
 .titulo-formcontacto {
-  font-family: Montserrat;
+  font-family: $tipografia-principal;
   font-size: 18pt;
   color: black;
   text-align: left;
@@ -159,7 +163,7 @@ div {
 }
 
 .subtitulo-formcontacto {
-  font-family: Montserrat;
+  font-family: $tipografia-principal;
   font-size: $tam-subtitulos;
   color: black;
   text-align: left;
@@ -167,14 +171,17 @@ div {
 
 div {
   .form-etiqueta {
-    font-family: Montserrat;
+    font-family: $tipografia-principal;
     font-size: $tam-textos;
     color: black;
     text-align: left;
   }
 }
 
-div {
+.caja-boton {
+  display: flex;
+  justify-content: center;
+
   .btn-enviar {
     background-color: #111a67;
     font-family: Montserrat;
@@ -186,7 +193,6 @@ div {
     background-color: #1d3496;
     color: white;
   }
-
 }
 
 .term-cond {
@@ -207,15 +213,9 @@ div {
   }
 }
 
-@media screen and (max-width: $mobile) {
+@media screen and (min-width: $desktop) {
   .banner-contacto {
-    background-image: url(../img/contacto_fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-  }
-  .img-oculta {
-    display: none;
+    height: 400px;
   }
 }
 
@@ -232,7 +232,7 @@ div {
     justify-content: center;
 
     h1 {
-      font-family: Montserrat;
+      font-family: $tipografia-banner;
       font-size: $tam-grande;
       color: black;
     }
@@ -305,14 +305,14 @@ div {
     p {
       text-align: center;
       line-height: 1.5;
-      font-family: Montserrat;
+      font-family: $tipografia-banner;
       font-size: $tam-subtitulos;
       color: black;
     }
   }
 
   .margin-incluye {
-    margin: 7% 20% 4% 20%;
+    margin: 7% 10% 4% 10%;
 
     .incluye-branding {
       display: flex;
@@ -374,6 +374,7 @@ div {
       display: flex;
       align-items: flex-end;
       justify-content: center;
+      text-align: center;
       padding-left: 10%;
       padding-right: 10%;
     }
@@ -462,7 +463,7 @@ div {
     margin: 10%;
 
     .titulo-planes {
-      font-family: $tipografia;
+      font-family: $tipografia-banner;
       font-size: $tam-titulos;
       font-weight: bold;
       text-align: center;
@@ -470,19 +471,18 @@ div {
     }
 
     .subtitulo-planes {
-      font-family: $tipografia;
-      font-size: $tam-subtitulos;
+      font-family: $tipografia-principal;
+      font-size: $tam-textos;
       text-align: center;
       color: black;
     }
 
     .caja-planes {
-      margin: 2%;
+      margin: 1%;
+      padding: 1%;
       background: #e6d5d3;
       border-radius: 15px;
-      width: 600px;
-      height: 300px;
-      font-family: $tipografia;
+      font-family: $tipografia-principal;
       font-size: $tam-subtitulos;
       text-align: center;
       color: black;
@@ -493,10 +493,10 @@ div {
       justify-content: center;
 
       .contenido-planes {
-        padding: 10%;
-        font-family: $tipografia;
+        padding: 5%;
+        font-family: $tipografia-principal;
         font-size: $tam-subtitulos;
-        text-align: center;
+        text-align: left;
         color: black;
         font-size: $tam-textos;
         font-weight: lighter;
@@ -594,7 +594,7 @@ div {
   align-items: center;
 
   .titulo-blog {
-    font-family: Montserrat;
+    font-family: $tipografia-banner;
     font-size: 25pt;
     font-weight: bold;
     letter-spacing: 5px;
@@ -618,14 +618,14 @@ div {
     margin-right: 10%;
 
     .titulo-p {
-      font-family: Montserrat;
+      font-family: $tipografia-principal;
       font-size: $tam-subtitulos;
       font-weight: bold;
       color: black;
     }
 
     .resumen-p {
-      font-family: Montserrat;
+      font-family: $tipografia-principal;
       font-size: $tam-textos;
       color: black;
     }
@@ -641,11 +641,11 @@ div {
     }
   }
   .caja-aside {
-    .img-aside {
-      float: right;
-      width: 300px;
-      height: auto;
-    }
+    display: none;
+  }
+
+  .img-posteos {
+    padding: 5px;
   }
 }
 
@@ -751,6 +751,42 @@ div {
       width: 250px;
       height: auto;
     }
+
+    .caja-aside {
+      visibility: visible;
+      display: block;
+
+      .img-aside {
+        float: right;
+        width: 300px;
+        height: auto;
+      }
+    }
+
+    .flex-aside {
+      width: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .aside-titulo-p {
+        padding-top: 10px;
+        font-family: $tipografia-principal;
+        font-size: $tam-subtitulos;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+      }
+
+      .aside-resumen-p {
+        padding-top: 5px;
+        font-family: $tipografia-principal;
+        font-size: $tam-textos;
+        color: black;
+        text-align: left;
+      }
+    }
   }
 }
 
@@ -769,7 +805,7 @@ div {
   .titulo-socialmedia {
     background-color: #e6d5d3;
     width: 100%;
-    font-family: $tipografia;
+    font-family: $tipografia-banner;
     font-size: $tam-grande;
     color: black;
     text-align: center;
@@ -789,7 +825,7 @@ div {
     margin: 0 5%;
 
     .titulo-estrategia {
-      font-family: $tipografia;
+      font-family: $tipografia-principal;
       font-size: $tam-titulos;
       color: black;
       text-align: center;
@@ -798,7 +834,7 @@ div {
   }
 
   .cajaB-estrategia {
-    font-family: $tipografia;
+    font-family: $tipografia-principal;
     font-size: $tam-textos;
     color: black;
   }
@@ -816,7 +852,7 @@ div {
   align-items: center;
 
   .titulo-desenfoque {
-    font-family: $tipografia;
+    font-family: $tipografia-banner;
     font-size: $tam-titulos;
     color: black;
     text-align: center;
@@ -824,7 +860,7 @@ div {
   }
 
   .subtitulo-desenfoque {
-    font-family: $tipografia;
+    font-family: $tipografia-banner;
     font-size: $tam-subtitulos;
     color: black;
     text-align: center;
@@ -835,7 +871,7 @@ div {
 }
 
 .info-ppal-plan {
-  font-family: $tipografia;
+  font-family: $tipografia-principal;
   font-size: $tam-subtitulos;
   color: black;
   text-align: center;
@@ -843,7 +879,7 @@ div {
 }
 
 .info-plan {
-  font-family: $tipografia;
+  font-family: $tipografia-principal;
   font-size: $tam-textos;
   color: black;
 }
@@ -858,13 +894,14 @@ div {
 
 .preg-frec {
   margin: 2% 0;
-  font-family: $tipografia;
+  font-family: $tipografia-principal;
   font-size: $tam-subtitulos;
   letter-spacing: 1px;
+  text-align: center;
   color: black;
 }
 .accordion {
-  font-family: $tipografia !important;
+  font-family: $tipografia-principal !important;
   color: black !important;
   font-size: $tam-textos !important;
   margin: 0% 10% 5% 10%;
@@ -875,7 +912,7 @@ div {
   color: black !important;
 }
 
-.flex-smm{
+.flex-smm {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -883,8 +920,8 @@ div {
   margin: 3% 7%;
 }
 
-.CTA-smm{
-  font-family: $tipografia;
+.CTA-smm {
+  font-family: $tipografia-principal;
   font-size: 14pt;
   color: black;
   text-align: center;

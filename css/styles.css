@@ -67,6 +67,7 @@
   font-size: 12pt;
   color: black;
   padding: 5px;
+  text-align: center;
 }
 
 * {
@@ -80,16 +81,16 @@
 }
 
 .carousel-caption {
-  font-family: "Montserrat";
   color: black !important;
 }
 .carousel-caption .tit-banner-index {
-  font-size: 17pt;
-  font-weight: bold;
+  font-family: Prata;
+  font-size: 22pt;
 }
 .carousel-caption .sub-banner-index {
+  font-family: "Montserrat";
   display: none;
-  font-size: 15;
+  font-size: 15pt;
 }
 
 .servicios-index {
@@ -180,13 +181,16 @@ div .titulo-servicio-index p {
 }
 /* Contacto */
 .banner-contacto {
-  height: 150px;
+  background-image: url(../img/contacto_fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 200px;
 }
 .banner-contacto h1 {
-  font-family: Montserrat;
+  font-family: Prata;
   font-size: 30pt;
   color: black;
   padding: 10px;
@@ -194,6 +198,7 @@ div .titulo-servicio-index p {
 
 .contacto {
   text-align: left;
+  margin: 5%;
 }
 
 .titulo-formcontacto {
@@ -218,13 +223,17 @@ div .form-etiqueta {
   text-align: left;
 }
 
-div .btn-enviar {
+.caja-boton {
+  display: flex;
+  justify-content: center;
+}
+.caja-boton .btn-enviar {
   background-color: #111a67;
   font-family: Montserrat;
   font-size: 12pt;
   color: white;
 }
-div .btn-enviar:hover {
+.caja-boton .btn-enviar:hover {
   background-color: #1d3496;
   color: white;
 }
@@ -245,16 +254,9 @@ div .btn-enviar:hover {
   text-align: center;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 992px) {
   .banner-contacto {
-    background-image: url(../img/contacto_fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-  }
-
-  .img-oculta {
-    display: none;
+    height: 400px;
   }
 }
 /* Branding */
@@ -269,7 +271,7 @@ div .btn-enviar:hover {
   justify-content: center;
 }
 .container-banner-branding .texto-branding h1 {
-  font-family: Montserrat;
+  font-family: Prata;
   font-size: 22pt;
   color: black;
 }
@@ -333,12 +335,12 @@ div .btn-enviar:hover {
 .all-branding .bg-identidad-branding p {
   text-align: center;
   line-height: 1.5;
-  font-family: Montserrat;
+  font-family: Prata;
   font-size: 15pt;
   color: black;
 }
 .all-branding .margin-incluye {
-  margin: 7% 20% 4% 20%;
+  margin: 7% 10% 4% 10%;
 }
 .all-branding .margin-incluye .incluye-branding {
   display: flex;
@@ -389,6 +391,7 @@ div .btn-enviar:hover {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  text-align: center;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -463,7 +466,7 @@ div .btn-enviar:hover {
   margin: 10%;
 }
 .all-branding .flex-container-planes .titulo-planes {
-  font-family: Montserrat;
+  font-family: Prata;
   font-size: 17pt;
   font-weight: bold;
   text-align: center;
@@ -471,16 +474,15 @@ div .btn-enviar:hover {
 }
 .all-branding .flex-container-planes .subtitulo-planes {
   font-family: Montserrat;
-  font-size: 15pt;
+  font-size: 12pt;
   text-align: center;
   color: black;
 }
 .all-branding .flex-container-planes .caja-planes {
-  margin: 2%;
+  margin: 1%;
+  padding: 1%;
   background: #e6d5d3;
   border-radius: 15px;
-  width: 600px;
-  height: 300px;
   font-family: Montserrat;
   font-size: 15pt;
   text-align: center;
@@ -492,10 +494,10 @@ div .btn-enviar:hover {
   justify-content: center;
 }
 .all-branding .flex-container-planes .caja-planes .contenido-planes {
-  padding: 10%;
+  padding: 5%;
   font-family: Montserrat;
   font-size: 15pt;
-  text-align: center;
+  text-align: left;
   color: black;
   font-size: 12pt;
   font-weight: lighter;
@@ -581,7 +583,7 @@ div .btn-enviar:hover {
   align-items: center;
 }
 .banner-blog .titulo-blog {
-  font-family: Montserrat;
+  font-family: Prata;
   font-size: 25pt;
   font-weight: bold;
   letter-spacing: 5px;
@@ -623,10 +625,11 @@ div .btn-enviar:hover {
   border-radius: 10px;
   margin-left: 40%;
 }
-.grilla-blog .caja-aside .img-aside {
-  float: right;
-  width: 300px;
-  height: auto;
+.grilla-blog .caja-aside {
+  display: none;
+}
+.grilla-blog .img-posteos {
+  padding: 5px;
 }
 
 .newsletter {
@@ -708,6 +711,37 @@ div .btn-enviar:hover {
     width: 250px;
     height: auto;
   }
+  .grilla-blog .caja-aside {
+    visibility: visible;
+    display: block;
+  }
+  .grilla-blog .caja-aside .img-aside {
+    float: right;
+    width: 300px;
+    height: auto;
+  }
+  .grilla-blog .flex-aside {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grilla-blog .flex-aside .aside-titulo-p {
+    padding-top: 10px;
+    font-family: Montserrat;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+  .grilla-blog .flex-aside .aside-resumen-p {
+    padding-top: 5px;
+    font-family: Montserrat;
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+  }
 }
 /* Social Media Manager */
 .banner-socialmedia {
@@ -723,7 +757,7 @@ div .btn-enviar:hover {
 .banner-socialmedia .titulo-socialmedia {
   background-color: #e6d5d3;
   width: 100%;
-  font-family: Montserrat;
+  font-family: Prata;
   font-size: 22pt;
   color: black;
   text-align: center;
@@ -766,14 +800,14 @@ div .btn-enviar:hover {
   align-items: center;
 }
 .bg-desenfocado .titulo-desenfoque {
-  font-family: Montserrat;
+  font-family: Prata;
   font-size: 17pt;
   color: black;
   text-align: center;
   font-weight: bold;
 }
 .bg-desenfocado .subtitulo-desenfoque {
-  font-family: Montserrat;
+  font-family: Prata;
   font-size: 15pt;
   color: black;
   text-align: center;
@@ -809,6 +843,7 @@ div .btn-enviar:hover {
   font-family: Montserrat;
   font-size: 15pt;
   letter-spacing: 1px;
+  text-align: center;
   color: black;
 }
 
