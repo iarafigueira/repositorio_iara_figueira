@@ -18,7 +18,7 @@
 
   .tit-banner-index {
     font-family: $tipografia-banner;
-    font-size: $tam-grande;
+    font-size: $tam-textos;
   }
   .sub-banner-index {
     font-family: "Montserrat";
@@ -28,6 +28,7 @@
 }
 
 .servicios-index {
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(2 1fr);
   grid-template-rows: repeat(2 1fr);
@@ -53,6 +54,24 @@
 
   .img-servicios {
     width: 100%;
+  }
+
+  div {
+    position: relative;
+
+    .titulo-servicio-index {
+      position: absolute;
+      width: 100%;
+      top: 5%;
+      text-align: center;
+      color: black;
+      font-family: $tipografia-principal;
+      font-size: $tam-titulos;
+    }
+
+    .enlace-NO {
+      text-decoration: none;
+    }
   }
 }
 
@@ -90,24 +109,8 @@
 
   .texto-newsletter {
     font-family: "Montserrat";
-    font-size: $tam-textos;
+    font-size: $tam-subtitulos;
     color: white;
-  }
-}
-
-div {
-  position: relative;
-
-  .titulo-servicio-index {
-    position: absolute;
-    width: 100%;
-    top: 5%;
-    left: 3%;
-
-    p {
-      font-family: Montserrat;
-      font-size: $tam-grande;
-    }
   }
 }
 
@@ -127,6 +130,10 @@ div {
       height: 100%;
       object-fit: cover;
     }
+  }
+
+  .tit-banner-index {
+    font-size: $tam-grande !important;
   }
 }
 
@@ -411,17 +418,17 @@ div {
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 3%;
 
       .titulo-etapa {
+        margin: 10px;
         font-family: Montserrat;
         font-size: $tam-titulos;
         color: black;
         font-weight: bold;
-        padding: 5%;
       }
 
       .descripcion-etapa {
+        margin: 10px;
         text-align: left;
         line-height: 40px;
         font-family: Montserrat;

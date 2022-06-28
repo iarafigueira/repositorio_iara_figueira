@@ -85,7 +85,7 @@
 }
 .carousel-caption .tit-banner-index {
   font-family: Prata;
-  font-size: 22pt;
+  font-size: 12pt;
 }
 .carousel-caption .sub-banner-index {
   font-family: "Montserrat";
@@ -94,6 +94,7 @@
 }
 
 .servicios-index {
+  width: 100vw;
   display: grid;
   grid-template-columns: repeat(2 1fr);
   grid-template-rows: repeat(2 1fr);
@@ -113,6 +114,21 @@
 }
 .servicios-index .img-servicios {
   width: 100%;
+}
+.servicios-index div {
+  position: relative;
+}
+.servicios-index div .titulo-servicio-index {
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  text-align: center;
+  color: black;
+  font-family: Montserrat;
+  font-size: 17pt;
+}
+.servicios-index div .enlace-NO {
+  text-decoration: none;
 }
 
 .caja-quiensoy {
@@ -145,22 +161,8 @@
 }
 .newsletter .texto-newsletter {
   font-family: "Montserrat";
-  font-size: 12pt;
+  font-size: 15pt;
   color: white;
-}
-
-div {
-  position: relative;
-}
-div .titulo-servicio-index {
-  position: absolute;
-  width: 100%;
-  top: 5%;
-  left: 3%;
-}
-div .titulo-servicio-index p {
-  font-family: Montserrat;
-  font-size: 22pt;
 }
 
 @media screen and (min-width: 992px) {
@@ -177,6 +179,10 @@ div .titulo-servicio-index p {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+
+  .tit-banner-index {
+    font-size: 22pt !important;
   }
 }
 /* Contacto */
@@ -424,16 +430,16 @@ div .form-etiqueta {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3%;
 }
 .all-branding .etapas .container-etapas .titulo-etapa {
+  margin: 10px;
   font-family: Montserrat;
   font-size: 17pt;
   color: black;
   font-weight: bold;
-  padding: 5%;
 }
 .all-branding .etapas .container-etapas .descripcion-etapa {
+  margin: 10px;
   text-align: left;
   line-height: 40px;
   font-family: Montserrat;
